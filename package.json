@@ -1,0 +1,25 @@
+{
+	"type": "module",
+	"devDependencies": {
+		"eslint": "^8.25.0",
+		"prettier": "^2.7.1",
+		"prettier-eslint": "^15.0.1",
+		"prettier-eslint-cli": "^7.1.0"
+	},
+	"scripts": {
+		"start": "node ./index.js",
+		"lint": "prettier-eslint ./text.js"
+	},
+	"eslintConfig": {
+		"reportUnusedDisableDirectives": true,
+		"env": {
+			"es6": true
+		},
+		"rules": {
+			"prefer-const": "error"
+		}
+	},
+	"prettier": {
+		"useTabs": true
+	}
+}
