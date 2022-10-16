@@ -1,4 +1,4 @@
-# Reproduction Repo for `prettier-eslint`
+# Reproduction Repo for prettier/prettier-eslint#802
 
 Just run below command:
 
